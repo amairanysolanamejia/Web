@@ -1,0 +1,28 @@
+*{
+	background-color: #FBB5E6;
+}
+
+h1,h5{
+	color: green;
+	color: rgb(200,150,0);
+	color: #AB2525;
+
+}
+
+
+p{
+	color: black;
+}
+
+#p2 {
+	color: #100C66;
+}
+
+
+.imagenRe{
+	height: 125px;
+	width: 125px;
+}
+caption {
+	color : #E20FAE;
+}
