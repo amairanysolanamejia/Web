@@ -1,0 +1,70 @@
+html{
+	background: url(../img/fon2.jpeg);
+}
+h2{
+	color: white;
+}
+h1{
+	color: white;
+	background: black;
+	padding: 30px 550px;
+}
+h3{
+	color:white;
+	padding: 30px 250px;
+}
+.previo{
+	position: relative; 
+	top: 50px;
+	left: 250px;
+}
+.post{
+	position: relative; 
+	top: 50px;
+	left: 250px;
+}
+.kakuna{
+	padding: 30px 400px;
+	
+}
+.Todo{
+	margin: 30px 250px;
+	padding: 50px;
+	justify-content: center;/*lo unica en la página text align alinea en la misma cajita */
+	background: black;
+	border-style:solid;
+	border-color:;
+
+}
+.parrafo1{
+	background: #F9D66E;
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 5px;
+	color: black;
+	text-align: justify;
+}
+.parrafo2{
+	background: #F9D66E;
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 5px;
+	color:black;
+	text-align: justify;
+}
+#parrafo3{
+	background: #F9D66E;
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 5px;
+	color: black;
+	text-align: justify;
+}
+#parrafo4{
+	background: #F9D66E;
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 5px;
+	color: black;
+	text-align: justify;
+}

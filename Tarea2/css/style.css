@@ -1,0 +1,31 @@
+html{
+	background: #F1F1F1;
+}
+#parrafo1{
+	background: #270DC2;
+	box-sizing: border-box;
+	width: 500px;
+	height: 250px;
+	padding: 30px;
+	border: dotted;
+}
+#parrafo2{
+	background: #E5D617;
+	box-sizing: content-box;
+	width: 500px;
+	height: 250px;
+	padding: 30px;
+	border: dotted;
+}
+h2{
+	color: #AADD0A;
+}
+#explica{
+	color: #7C8EC5;
+
+	box-sizing: content-box;
+	width: 500px;
+	height: 250px;
+	padding: 30px;
+	
+}
