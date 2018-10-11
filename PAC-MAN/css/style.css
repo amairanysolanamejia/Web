@@ -1,0 +1,35 @@
+html{
+	background: url(../img/images.jpeg);
+}
+.pacman{
+	width: 0;
+	height:0 ;
+	border-right: 25px solid transparent;
+	border-top: 25px solid yellow;
+	border-left: 25px solid yellow;
+	border-bottom: 25px solid yellow;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	position: relative;
+	animation: pacman 1.8s infinite;
+}
+
+@keyframes pacman{
+	0%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid transparent; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+	25%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid yellow; border-bottom: 60px solid yellow;left: 250px; top: 0px;}
+	50%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid transparent; border-bottom: 60px solid yellow;left: 1000px; top: 0px;}
+	75%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid yellow; border-bottom: 60px solid yellow;left: 1500px; top: 0px;}
+	100%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid transparent; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+}
+ h1,h2{
+ 	padding: 30px 600px;
+ 	color: #F2EAEA;
+
+ }
+
+body{
+	background: black;
+}
+
