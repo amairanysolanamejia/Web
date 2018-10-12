@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+}
+.logo{
+    position: fixed;
+    align-content: right;
+   width: 10%;
+    height: 25%;
+} 
+ 
+
+body{
+background: url(../images/2.jpg) no-repeat center center fixed; /*fija al centro la imagen utilizada*/
+/* "webkit", "moz", etc son etiquetas que cada navegador interpreta de forma diferente al no haber un 
+estandar por el que se tengan que regir. */
+-webkit-background-size: cover; 
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; /* especifica el tamaño de las imágenes de fondo sin que se estire o deforme.*/
+}
+
+.principal{
+position: absolute; /*Las capas que tienen una posición absoluta no forman parte del flujo natural
+ de los otros elementos del documento HTML, sino que su posición está asignada independientemente
+ de la posición de los otros elementos.*/
+left: 50%; /*posiciona, en porcentaje de la imagen a la mitad de la pantalla la caja principal*/
+top: 100%;
+transform: translate(-50%);
+-webkit-transform: translate(-50%, -50%);
+border-radius: 30%; /*Le da una curvatura a la caja principal*/
+background-color: black; /*Pone color negro de fondo*/
+opacity: 0.80; /*Determina qué tan opaca es la caja principal, entre más cerca del 0, más transparente
+es*/
+}
+.panda{
+position: absolute; 
+left: 50%;
+bottom: -150%;
+transform: translate(-50%); /* forma de centrar el elemento en lugar de usar el margen si no 
+conocemos la altura y el ancho del contenedor*/
+-webkit-transform: translate(-50%, -50%);
+border-radius: 30%; /*Le da una curvatura a la caja principal*/
+background-color: black; /*Pone color negro de fondo*/
+opacity: 0.80; /*Determina qué tan opaca es la caja principal, entre más cerca del 0, más 
+transparente es*/
+}
+h1{
+    color: white; /*asigna color blanco a la letra*/
+    position: relative;/*Dentro de la cajita nueva "principal" se coloca segń los datos señalados*/
+    left: 20%; /*posiciona, en porcentaje de la imagen a la mitad de la pantalla la caja principal*/
+    top: 100%;/*Posiciona la imagen hacia arriba*/
+}
+h2{
+    color: white;
+    position: relative;
+    left: 25%; /*posiciona, en porcentaje de la imagen a la mitad de la pantalla la caja principal*/
+    top: 100%;
+}
+label{
+	color: white;
+	font-size: 1.5em;/*se usa para modificar el tamaño de la fuente mostrada*/
+}
+form{
+	margin: 4% 5%;  /*Le asigna un margen a la caja de formulario*/
+}
+input[type = text], select{
+    width: 100%; /*asigna anchura*/
+    padding: 12px 20px; /*asigna el padding, de la cajita al contenido*/
+    margin: 8px 0; /* asigna un margen*/
+    display: inline-block;/*hacen que la caja de un elemento sea de bloque alineado */
+    border: 1px solid #ccc; /*asigna un borde*/
+    border-radius: 4px; /*redonde las esquinas de la caja*/
+    box-sizing: border-box;/*Cuando ajustas un elemento con box-sizing: border-box;,
+     el padding y border de ese elemento no incrementan su ancho*/
+}
+
+input[type=submit] { /*En las siguientes líneas se repiten las instrucciones anteriores, solamente que
+    en este caso es para los input de tipo submit, para que genere un recuadro verde*/
+    position: relative;
+    left: 25%;
+    bottom: 100%;
+    width: 50%;
+    background-color: #9e9d24;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+

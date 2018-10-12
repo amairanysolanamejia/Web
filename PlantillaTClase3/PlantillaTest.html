@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plantilla, Solana Mejía, Haydee Amairan</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/PlantillaTest.css"> <!-- Linkea el estilo en la carpeta css -->
+</head>
+<body>
+	<img class = "logo" src="images/ANYDIEGO.jpg" alt="">
+	<div class="principal"> <!-- Crea una división llamada clase principal para poder utulizarla como un bloque y darle las especificaciones de la localizació, color,ect -->
+		<form>
+			<h1>ADOPTA A UN PANDA </h1>
+			<h2>Datos del usuario</h1>
+				<label for="fname">Nombre completo:</label> <!-- Títulos de las cajas que contienen  -->
+				<input type="text" id="fname" name="firstname" placeholder="Nombre..."> <!-- Tipo de input y nombre que muestra en la página -->
+
+				<label for="fname">Direccion:</label> <!-- Títulos de las cajas que contienen  -->
+				<input type="text" id="fname" name="firstname" placeholder="Dirección completa...">
+
+
+				<label for="lname">Fecha de solicitud:</label>
+				<input type="date">
+				<br>
+				<br>
+				<label for="lname">Foto vigente:</label>
+				<input type="file">
+				<br>
+				<br>
+				<label for="lname">E-mail:</label>
+				<input type="email" name="correo electronico" placeholder="Correo electrónico...">
+				<br>
+				<br>
+				<label for="lname"> ¿Qué tan bueno eres, del 1 al 10, cuidando animales?:</label>
+				<input type="range" name="points" min="0" max="10">
+				<br>
+				<br>
+				<label for="lname">Teléfono:</label>
+				<input type="tel" name="telefono" placeholder="Teléfono...">
+				<br>
+				<br>
+				
+				<input type="submit"> <!-- Botón que envía la encuesta -->
+			</form>
+		</div>
+		
+		<div class = "panda"> <!-- clase panda, donde se piden los datos del panda, así como dónde vivirá -->
+			<form>
+				<h2>Datos del panda</h2>
+				<label for="fname">Nombre a asignar:</label> <!-- Títulos de las cajas que contienen  -->
+				<input type="text" id="fname" name="first" placeholder="Nombre a asignar...">
+				<br>
+				<br>
+				<label for="lname">Color de los juguetes del panda:</label>
+				<input type="color">
+				<br>
+				<br>
+				<label for="country">País donde vivirá con el panda:</label>
+				<select id="country" name="country">
+					<option value="mexico">Mexico</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+					<option value="china">China</option>
+					<option value="islandia">Islandia</option>
+				</select>
+				<input type="submit">
+			</form>
+		</div>
+
+
+
+
+	</body>
+	</html>
