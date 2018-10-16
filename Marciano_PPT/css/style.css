@@ -1,0 +1,19 @@
+html{
+	background-image: url(../img/1.gif);
+
+}
+img {
+
+    width: 50%;
+    height: auto;
+    display:block;
+	margin:auto;
+}
+h1{
+	
+	padding: 30px 600px;
+	background:#B8F749;
+	width: 140px;
+	height: 140px;
+
+}
